@@ -45,6 +45,11 @@
 
 .word {
     font-size: 30px;
+    display: flex;
+}
+
+.letters {
+    margin-left: 10px;
 }
 
 .all-letters {

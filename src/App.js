@@ -22,11 +22,7 @@ function random(){
 	return Math.random() - 0.5; 
 }
 
-
-
-
 function RandomWord(props){
-
     return (
         <>
             <p className="letters">{props.index}</p>
@@ -53,7 +49,6 @@ export default function App(){
         setWordArray(newArray)
         console.log(wordArray)
         RandomWord(wordArray);
-    
     }
 
     return (
